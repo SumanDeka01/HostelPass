@@ -4,14 +4,14 @@ const Home = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-50 px-4">
-      <div className="rounded-xl bg-white p-8 text-center shadow-md">
-        <h1 className="text-3xl font-bold text-gray-900">Welcome!</h1>
+    <div className="flex min-h-screen items-center justify-center bg-gray-200 px-4">
+      <div className="rounded-3xl bg-blue-200  h-80 w-200 text-center shadow-md p-20">
+        <h1 className="text-3xl font-bold text-black">Welcome</h1>
 
-        <h2 className="mt-3 text-lg text-gray-600">Hostel Gate Pass System</h2>
+        <h2 className="mt-3 text-lg text-black">Hostel Gate Pass System</h2>
 
         <button
-          className="mt-6 rounded-lg bg-blue-600 px-6 py-2 text-white transition hover:bg-blue-700"
+          className="mt-6 rounded-lg bg-gray-500 px-6 py-2 text-white transition hover:bg-gray-600"
           onClick={() => navigate("/login")}
         >
           Get Started
