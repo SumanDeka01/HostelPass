@@ -111,13 +111,13 @@ export default function SecurityDashboard() {
             </div>
           </div>
 
-          <button
+          {/* <button
             onClick={logout}
             className="flex items-center gap-2 rounded-lg border border-slate-200 px-4 py-2 text-sm font-medium text-slate-700 transition hover:bg-slate-100"
           >
             <LogOut size={17} />
             Logout
-          </button>
+          </button> */}
         </div>
       </header>
 
